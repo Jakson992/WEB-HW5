@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "web-hw5"
+version = "0.1.0"
+description = ""
+authors = ["Yevheniy Petrenko <yevheniipetrenko92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_hw5"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
